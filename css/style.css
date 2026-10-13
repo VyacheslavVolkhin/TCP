@@ -4492,3 +4492,208 @@ input.form-clear-autofill::-webkit-contacts-auto-fill-button {
   fill: currentColor;
   vertical-align: -0.1em;
 }
+/* add edits styles */
+.header .cnt-value.value-email {
+  text-transform: none;
+}
+.lead-box .items-inner-wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.lead-box .elm-panel-text {
+  max-width: 26em;
+}
+.lead-box .max-400 {
+  max-width: 26em;
+}
+.form-box .field-info {
+  text-transform: none;
+  font-size: 9px;
+}
+.form-box .field-info a:not(:hover) {
+  color: var(--clr-att);
+}
+.info-box .item-wrap:has(.tile-att) {
+  padding-top: 20px;
+}
+.item-tile-logo .elm-photo {
+  height: 70px;
+}
+.item-tile-info-toggle {
+  font-size: 12px;
+}
+.item-tile-info-toggle .tile-content-text {
+  font-size: var(--fsize);
+}
+.elm-panel-user .panel-rate {
+  display: block;
+}
+.elm-panel-user .panel-info {
+  margin-top: 6px;
+}
+.elm-panel-user .panel-info:first-child {
+  margin-top: 0;
+}
+.elm-panel-user .panel-title {
+  margin-bottom: 0;
+}
+.footer-bottom-panel {
+  font-size: 16px;
+}
+.footer-bottom-panel .inner-wrap {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+.footer-bottom-panel .inner-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: var(--paddingContainer);
+  right: var(--paddingContainer);
+  height: 2px;
+  background: var(--clr-bg-white);
+}
+.footer-bottom-panel .bottom-info-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 15px;
+}
+.footer-bottom-panel .info-wrap {
+  max-width: 45%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.footer-bottom-panel .info-wrap:last-child {
+  text-align: right;
+}
+.footer-bottom-panel a:not(:hover) {
+  color: inherit;
+}
+.footer:has(.footer-bottom-panel) {
+  padding-bottom: 0;
+}
+.footer:has(.footer-bottom-panel) > .inner-wrap {
+  padding-bottom: 32px;
+}
+.footer .main-content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer .main-inner-wrap {
+  gap: 15px;
+}
+.logo .logo-title {
+  font-size: 2.375em;
+}
+@media (max-width: 1023px) {
+  .header .menu-content-block {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .lead-box .max-400,
+  .lead-box .elm-panel-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-bottom-panel .bottom-info-wrap {
+    display: block;
+  }
+  .footer-bottom-panel .info-wrap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  .footer-bottom-panel .info-wrap:last-child {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 479px) {
+  .header .cnt-value.value-email {
+    font-size: 13px;
+  }
+  .header .logo {
+    font-size: 6.4px;
+  }
+}
+@media (min-width: 768px) {
+  .calc-box .title-box {
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    font-size: 8px;
+  }
+  .title-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header .btn-menu {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .header .cnt-value {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer > .inner-wrap {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  .footer .main-inner-wrap {
+    display: contents;
+  }
+  .footer .main-content-wrap {
+    width: 36%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+  .footer .second-inner-wrap {
+    text-align: left;
+    width: auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 480px;
+  }
+  .footer .second-inner-wrap .logo {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .footer .contacts-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 240px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+}
+/* end add edits styles */
