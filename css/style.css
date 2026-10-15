@@ -4938,6 +4938,9 @@ input.form-clear-autofill::-webkit-contacts-auto-fill-button {
   }
 }
 @media (min-width: 1024px) {
+  :root {
+    font-size: 8px;
+  }
   .title-nowrap {
     white-space: nowrap;
     overflow: hidden;
